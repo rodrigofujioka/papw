@@ -1,8 +1,7 @@
 # Programação avançada para web
+	
+<img src="https://github.com/rodrigofujioka/javabasico/blob/master/resources/javaspion.png" alt="Javaspion" />
 
-	<p align="center">	
-		<img src="https://github.com/rodrigofujioka/javabasico/blob/master/resources/javaspion.png" alt="Javaspion" />
-     </p>
      
 Código base da disciplina programação web. 
 Contém conteúdo básico para disciplina de programação avançada para web com Maven, JDK11, SpringBoot , SpringData. 
@@ -54,14 +53,12 @@ Cursos recomendados para alunos com dificuldade em assimilar o conteúdo.
 
 ## Preparação do ambiente
 
-
 1 - Configurar o ambiente Java, na ordem informada. 
 
-1.0 - Você pode fazer todas as configurações com o [SDKMAN](https://sdkman.io/) .
+1.0 - Você pode fazer todas as configurações com o [SDKMAN](https://sdkman.io/).
 
-	<p align="center">	
-		<img src="https://sdkman.io/assets/img/sdk-man-small-pattern.svg" alt="SDK MAN" />	
-	</p>
+<img src="https://sdkman.io/assets/img/sdk-man-small-pattern.svg" alt="SDK MAN" />	
+
 
 1.1 - Baixar e instalar o JDK  -> 
          [Oracle JDK](https://www.oracle.com/technetwork/pt/java/javase/downloads/index.html)
