@@ -1,21 +1,21 @@
 # Programação avançada para web
 
 Código base da disciplina programação web. 
-Contém conteúdo básico com fundamentos de programação Java web utilizando REST com Maven, JDK11, SpringBoot , SpringData
+Contém conteúdo básico para disciplina de programação avançada para web com Maven, JDK11, SpringBoot , SpringData. 
 
 [![License](https://img.shields.io/github/license/rodrigofujioka/papw.svg)](https://opensource.org/licenses/MIT)
 <img src="https://img.shields.io/github/followers/rodrigofujioka?label=Follow&style=plastic">
 <img src="https://img.shields.io/github/forks/rodrigofujioka/papw?color=SSSS&label=Fork&style=plastic">
-<a href="https://github.com/rodrigofujioka/pos-javaweb/graphs/contributors" alt="Contributors">
+<a href="https://github.com/rodrigofujioka/papw/graphs/contributors" alt="Contributors">
    <img src="https://img.shields.io/github/contributors/rodrigofujioka/papw" /></a>
 <a href="https://github.com/rodrigofujioka/papw/pulse" alt="Activity">
     <img src="https://img.shields.io/github/commit-activity/m/rodrigofujioka/papw" /></a>  
   
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=rodrigofujioka_papw&metric=bugs)](https://sonarcloud.io/dashboard?id=rodrigofujioka_pos-javaweb) 
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=rodrigofujioka_papw&metric=code_smells)](https://sonarcloud.io/dashboard?id=rodrigofujioka_pos-javaweb) 
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=rodrigofujioka_papwb&metric=alert_status)](https://sonarcloud.io/dashboard?id=rodrigofujioka_pos-javaweb) 
-[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=rodrigofujioka_papw&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=rodrigofujioka_pos-javaweb) 
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=rodrigofujioka_papw&metric=ncloc)](https://sonarcloud.io/dashboard?id=rodrigofujioka_pos-javaweb) 
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=rodrigofujioka_papw&metric=bugs)](https://sonarcloud.io/dashboard?id=rodrigofujioka_papw) 
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=rodrigofujioka_papw&metric=code_smells)](https://sonarcloud.io/dashboard?id=rodrigofujioka_papw) 
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=rodrigofujioka_papwb&metric=alert_status)](https://sonarcloud.io/dashboard?id=rodrigofujioka_papw) 
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=rodrigofujioka_papw&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=rodrigofujioka_papw) 
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=rodrigofujioka_papw&metric=ncloc)](https://sonarcloud.io/dashboard?id=rodrigofujioka_papw) 
 ![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=rodrigofujioka_papw&metric=vulnerabilities)
 
 Olá, seja bem vindo a mais um curso com o professor Rodrigo Fujioka. 
@@ -52,14 +52,20 @@ Cursos recomendados para alunos com dificuldade em assimilar o conteúdo.
 
 1 - Configurar o ambiente Java, na ordem informada. 
 
+1.0 - Você pode fazer todas as configurações com o [SDKMAN](https://sdkman.io/)
+
+	![](https://sdkman.io/assets/img/sdk-man-small-pattern.svg)
+
 1.1 - Baixar e instalar o JDK  -> 
          [Oracle JDK](https://www.oracle.com/technetwork/pt/java/javase/downloads/index.html)
-         [Open JDK](https://openjdk.java.net/install/index.html)
+         [Open JDK](https://openjdk.java.net/install/index.html)         
 
 1.2 - Baixar e extrair binarios do Maven -> 
          [Maven](https://maven.apache.org/download.cgi)
          
 1.3 - Configurar Classpath (Java e Maven) -> 
+
+
 
 1.4 - Baixar e instalar ferramentas de desenvolvimento.
 
