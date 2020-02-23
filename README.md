@@ -1,6 +1,6 @@
 # Programação avançada para web
 <p align="center">	
-<img src="https://github.com/rodrigofujioka/javabasico/blob/master/resources/javaspion.png" alt="Javaspion" />
+<a href="http://www.rodrigofujioka.com/" target="_blank"><img src="https://github.com/rodrigofujioka/javabasico/blob/master/resources/javaspion.png" alt="Javaspion" /></a>
 </p>
      
 Código base da disciplina programação web. 
@@ -59,7 +59,7 @@ Cursos recomendados para alunos com dificuldade em assimilar o conteúdo.
 1.0 - Você pode fazer todas as configurações com o [SDKMAN](https://sdkman.io/) .
 
 <p align="center">	
-[<img src="https://sdkman.io/assets/img/sdk-man-small-pattern.svg" alt="SDK MAN" width="350" height="350"/>](https://sdkman.io/)	
+<a href="https://sdkman.io/" target="_blank"><img src="https://sdkman.io/assets/img/sdk-man-small-pattern.svg" alt="SDK MAN" width="350" height="350"/></a>	
 </p>
 
 1.1 - Baixar e instalar o JDK  -> 
