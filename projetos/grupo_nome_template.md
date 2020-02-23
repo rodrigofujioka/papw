@@ -59,31 +59,33 @@
 ### Instruções
 
       0. https://githowto.com/ e https://learngitbranching.js.org/ para aprender a utilizar com Git.
-      1. Faça o fork do projeto https://github.com/rodrigofujioka/papw/  .
+      1. Faça o fork do projeto https://github.com/rodrigofujioka/papw/.
       2. Implemente o que foi pedido, utilize o código passdo como exemplo em sala de aula. 
       3. Após concluir seu trabalho/Exercício faça um Merge Request para a branch spi_20201 ; 
       4. Envie até a data combinada,  mensagem com o título  [PROJETO-SPI_20201][NOME_GRUPO_PROJETO] para a atividade informada no BlackBoard.
+     
       ```
-      ex:. [PROJETO-SPI_20201][ZEROBYTES_ZONAAZUL]
+      * ex:. [PROJETO-SPI_20201][ZEROBYTES_ZONAAZUL]
       ```
+      
       5. Ao criar as entidades utilize o seguinte nome de pacote: 
-      5.1 - dev.nomedogrupo.nomedospacotes
+      5.1 - dev.nomedogrupo.nomedospacotes      
       ```
-      Ex:. dev.zerobytes.model
-           dev.zerobytes.resource
-           dev.zerobytes.repository  
-           dev.zerobytes.service
+      * Ex:. dev.zerobytes.model
+      *      dev.zerobytes.resource
+      *      dev.zerobytes.repository  
+      *     dev.zerobytes.service          
       ```   
       5.2 - Os enpoints todos terão a seguinte anotação "/nomeGrupo/api" 
-       ```
-      ex:. 
-          @RequestMapping("/zerobytes/api")   //isso vai evitar conflitos na hora de inicializar o projeto.
-          public class UsuarioResource {  }
+      ```
+      *  ex:. 
+      *      @RequestMapping("/zerobytes/api")   //isso vai evitar conflitos na hora de inicializar o projeto.
+      *      public class UsuarioResource {  }
        ```     
       5.3 - As entidades devem ser mapeadas com o TableName apontando para tabelas com o nome grupo_NomeEntidade.
       ```
-      ex:.
-          @Entity
-          @Table("zerobytes_usuario")
-          public class Usuario {}
-        ```
+      * ex:.
+      *     @Entity
+      *     @Table("zerobytes_usuario")
+      *    public class Usuario {}
+       ```
