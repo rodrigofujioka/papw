@@ -1,7 +1,12 @@
 # Programação avançada para web
 
+	<p align="center">	
+		<img src="https://github.com/rodrigofujioka/javabasico/blob/master/resources/javaspion.png" alt="Javaspion" />
+     </p>
+     
 Código base da disciplina programação web. 
 Contém conteúdo básico para disciplina de programação avançada para web com Maven, JDK11, SpringBoot , SpringData. 
+
 
 [![License](https://img.shields.io/github/license/rodrigofujioka/papw.svg)](https://opensource.org/licenses/MIT)
 <img src="https://img.shields.io/github/followers/rodrigofujioka?label=Follow&style=plastic">
@@ -54,9 +59,8 @@ Cursos recomendados para alunos com dificuldade em assimilar o conteúdo.
 
 1.0 - Você pode fazer todas as configurações com o [SDKMAN](https://sdkman.io/) .
 
-
 	<p align="center">	
-	<img src="https://sdkman.io/assets/img/sdk-man-small-pattern.svg" alt="SDK MAN"">	
+		<img src="https://sdkman.io/assets/img/sdk-man-small-pattern.svg" alt="SDK MAN" />	
 	</p>
 
 1.1 - Baixar e instalar o JDK  -> 
