@@ -54,7 +54,7 @@ Cursos recomendados para alunos com dificuldade em assimilar o conteúdo.
 
 1.0 - Você pode fazer todas as configurações com o [SDKMAN](https://sdkman.io/)
 
-	![](https://sdkman.io/assets/img/sdk-man-small-pattern.svg)
+	(https://sdkman.io/assets/img/sdk-man-small-pattern.svg)
 
 1.1 - Baixar e instalar o JDK  -> 
          [Oracle JDK](https://www.oracle.com/technetwork/pt/java/javase/downloads/index.html)
