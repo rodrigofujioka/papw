@@ -59,7 +59,7 @@ Cursos recomendados para alunos com dificuldade em assimilar o conteúdo.
 1.0 - Você pode fazer todas as configurações com o [SDKMAN](https://sdkman.io/) .
 
 <p align="center">	
-<img src="https://sdkman.io/assets/img/sdk-man-small-pattern.svg" alt="SDK MAN" width="350" height="350"/>	
+[<img src="https://sdkman.io/assets/img/sdk-man-small-pattern.svg" alt="SDK MAN" width="350" height="350"/>](https://sdkman.io/)	
 </p>
 
 1.1 - Baixar e instalar o JDK  -> 
