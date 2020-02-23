@@ -5,14 +5,15 @@
   - Equipe do Projeto:
     
     | RGM-Matrícula | Nome Completo | Curso | Github | Lattes 
-    |-|-|
+    | - | - | - |  - | -
     | 11111111 | Geralt de Rívia  | Ciências da Computação |  [git](https://github.com.br/GeraltdeRívia) | [Lattes](http://lattes.cnpq.br/0843668802633139)
     | 22222222 | Aegon Targaryen  | Ciências da Computação |  [git](https://github.com.br/AegonTargaryen) | [Lattes](http://lattes.cnpq.br/0843668802633139)
+    | 33333333 | Jiang Xiao Yu    | Ciências da Computação |  [git](https://github.com.br/AegonTargaryen) | [Lattes](http://lattes.cnpq.br/0843668802633139)
   
   - Imagem da Equipe:
   
-	![](img/grupo_handsome_siblings_20022020.png)
-
+	![](/img/grupo_handsome_siblings_20022020.png)
+	
   - Data de entrega:
     * 03/02/2020
     
