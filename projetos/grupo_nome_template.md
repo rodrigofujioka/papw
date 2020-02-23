@@ -6,16 +6,16 @@
     
     | RGM-Matrícula | Nome Completo | Curso | Github | Lattes 
     | - | - | - |  - | -
-    | 11111111 | Geralt de Rívia  | Ciências da Computação |  [git](https://github.com.br/GeraltdeRívia) | [Lattes](http://lattes.cnpq.br/0843668802633139)
-    | 22222222 | Aegon Targaryen  | Ciências da Computação |  [git](https://github.com.br/AegonTargaryen) | [Lattes](http://lattes.cnpq.br/0843668802633139)
-    | 33333333 | Jiang Xiao Yu    | Ciências da Computação |  [git](https://github.com.br/AegonTargaryen) | [Lattes](http://lattes.cnpq.br/0843668802633139)
+    | 11111111 | Geralt de Rívia  | Ciências da Computação |  [link](https://github.com.br/GeraltdeRívia) | [Lattes](http://lattes.cnpq.br/0843668802633139)
+    | 22222222 | Aegon Targaryen  | Ciências da Computação |  [link](https://github.com.br/AegonTargaryen) | [Lattes](http://lattes.cnpq.br/0843668802633139)
+    | 33333333 | Jiang Xiao Yu    | Ciências da Computação |  [link](https://github.com.br/AegonTargaryen) | [Lattes](http://lattes.cnpq.br/0843668802633139)
   
   - Imagem da Equipe:
   
 	![](/projetos/20201/img/grupo_handsome_siblings_20022020.png)
 	
   - Data de entrega:
-    * 03/02/2020
+    * 20/03/2020
     
   - Descrição:
     ```
@@ -53,15 +53,37 @@
     ```
     * Seu código; 
     * Organização; 
+    * Seus commmits e participação no projeto;
     ```
 
 ### Instruções
+
       0. https://githowto.com/ e https://learngitbranching.js.org/ para aprender a utilizar com Git.
-      1. Faça o fork do projeto  .
+      1. Faça o fork do projeto https://github.com/rodrigofujioka/papw/  .
       2. Implemente o que foi pedido, utilize o código passdo como exemplo em sala de aula. 
-      3. Após concluir seu trabalho faça um Merge Request para a branch ; 
-      4. Envie até o dia 03/02/2020,  mensagem com o título  [PROJETO-POSWEB-T52020][SEUNOMECOMPLETO] para o e-mail informado em sala de aula.
+      3. Após concluir seu trabalho/Exercício faça um Merge Request para a branch spi_20201 ; 
+      4. Envie até a data combinada,  mensagem com o título  [PROJETO-SPI_20201][NOME_GRUPO_PROJETO] para a atividade informada no BlackBoard.
+      ```
+      ex:. [PROJETO-SPI_20201][ZEROBYTES_ZONAAZUL]
+      ```
       5. Ao criar as entidades utilize o seguinte nome de pacote: 
-      5.1 - dev.fujioka.seunome.nomedospacotes
-      5.2 - Objetico é que seus códigos sejam passados para recrutadores. 
-      
+      5.1 - dev.nomedogrupo.nomedospacotes
+      ```
+      Ex:. dev.zerobytes.model
+           dev.zerobytes.resource
+           dev.zerobytes.repository  
+           dev.zerobytes.service
+      ```   
+      5.2 - Os enpoints todos terão a seguinte anotação "/nomeGrupo/api" 
+       ```
+      ex:. 
+          @RequestMapping("/zerobytes/api")   //isso vai evitar conflitos na hora de inicializar o projeto.
+          public class UsuarioResource {  }
+       ```     
+      5.3 - As entidades devem ser mapeadas com o TableName apontando para tabelas com o nome grupo_NomeEntidade.
+      ```
+      ex:.
+          @Entity
+          @Table("zerobytes_usuario")
+          public class Usuario {}
+        ```
