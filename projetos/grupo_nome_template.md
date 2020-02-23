@@ -12,7 +12,7 @@
   
   - Imagem da Equipe:
   
-	![](/img/grupo_handsome_siblings_20022020.png)
+	![](/projetos/20201/img/grupo_handsome_siblings_20022020.png)
 	
   - Data de entrega:
     * 03/02/2020
