@@ -5,6 +5,7 @@ import java.util.NoSuchElementException;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.rodrigofujioka.dev.domain.Product;
 import com.rodrigofujioka.dev.repositoy.ProductRepository;
@@ -26,6 +27,7 @@ public class ProductService {
 				.orElseThrow(NoSuchElementException::new);
 	}	
 	
+
 	public List<Product> findAll() {
 		return productRepository.findAll();
 	}
@@ -38,6 +40,10 @@ public class ProductService {
 		return productRepository.save(product);
 	}
 	
-	//FIXME Exercício para turma :  Implemente os demais métodos (Deletar por ID, Atualizar)
+	
+	public void deleteById(Long id) {		  
+		 productRepository.deleteById(id);
+	}
+	
 
 }
