@@ -9,6 +9,8 @@
 		<version>2.2.4.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
+	
+	
 	<groupId>com.rodrigofujioka.dev</groupId>
 	<artifactId>webapp</artifactId>
 	<version>0.1.1-SNAPSHOT</version>
@@ -24,6 +26,7 @@
 	</properties>
 
 	<dependencies>
+	
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -33,7 +36,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
-		
+			
 		
 		<!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
 		<dependency>
