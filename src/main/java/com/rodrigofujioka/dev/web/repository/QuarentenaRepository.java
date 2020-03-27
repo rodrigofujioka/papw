@@ -13,5 +13,7 @@ public interface QuarentenaRepository
 	
 	//select * from quarentena where uf=
 	public List<Quarentena> findQuarentenaByUf(String uf);
+	
+	public List<Quarentena> findQuarentenaByNomePessoaAndUf(String nomePessoa, String uf)
 
 }
