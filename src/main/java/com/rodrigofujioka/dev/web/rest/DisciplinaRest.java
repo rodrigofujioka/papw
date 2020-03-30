@@ -17,6 +17,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.rodrigofujioka.dev.web.domain.Disciplina;
 import com.rodrigofujioka.dev.web.service.DisciplinaService;
+import com.rodrigofujioka.dev.web.service.dto.DisciplinaNomeProfessorDTO;
+
+import javassist.NotFoundException;
 
 @RestController
 @RequestMapping("/api")
@@ -30,20 +33,33 @@ public class DisciplinaRest {
 		return ResponseEntity.ok(disciplinaService.salvar(disciplina));
 	}
 	
+	
+	public ResponseEntity<DisciplinaNomeProfessorDTO> getDisciplinaProfessor(@PathVariable Long id){
+		try {
+			DisciplinaNomeProfessorDTO disciplinaNomeProfessorDTO = disciplinaService.getDisciplinaPorId(id);
+			return ResponseEntity.ok(disciplinaNomeProfessorDTO);
+		} catch (NotFoundException e) {
+			//FIXME Incluid LOGS AQUI
+			e.printStackTrace();
+			return ResponseEntity.notFound().build();
+		}
+		
+	}
+	
 	@PutMapping("/disciplina")
-	public Disciplina update(@RequestBody @Valid Disciplina disciplina) {
-		return disciplinaService.update(disciplina);
+	public ResponseEntity<Disciplina> update(@RequestBody @Valid Disciplina disciplina) {
+		return ResponseEntity.ok(disciplinaService.update(disciplina));
 	}
 	
 
 	@GetMapping("/disciplina/{id}")
-	public Disciplina consultaPorId(@PathVariable Long id) {
-		return disciplinaService.consultaPorId(id);
+	public ResponseEntity<Disciplina> consultaPorId(@PathVariable Long id) {
+		return ResponseEntity.ok(disciplinaService.consultaPorId(id));
 	}
 	
 	@GetMapping("/disciplina")
-	public List<Disciplina> listar() {
-		return disciplinaService.listar();
+	public ResponseEntity<List<Disciplina>> listar() {
+		return ResponseEntity.ok(disciplinaService.listar());
 	}
 
 	@DeleteMapping("/disciplina/{id}")

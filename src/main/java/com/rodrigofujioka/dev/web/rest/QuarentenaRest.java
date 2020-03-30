@@ -71,9 +71,7 @@ public class QuarentenaRest {
 		}
 
 	}
-	
-	
-	
+		
 
 	@DeleteMapping("/quarentena/{id}")
 	public ResponseEntity deleteById(@PathVariable Long id) {

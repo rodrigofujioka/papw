@@ -12,7 +12,41 @@ public class Disciplina {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
+	private String nome;
+	
 	private String descricao;
+	
+	private String professor;
+	
+	private int anoDisciplina;
+	
+	private String codigoInstituicao;
+	
+	
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public String getProfessor() {
+		return professor;
+	}
+	public void setProfessor(String professor) {
+		this.professor = professor;
+	}
+	public int getAnoDisciplina() {
+		return anoDisciplina;
+	}
+	public void setAnoDisciplina(int anoDisciplina) {
+		this.anoDisciplina = anoDisciplina;
+	}
+	public String getCodigoInstituicao() {
+		return codigoInstituicao;
+	}
+	public void setCodigoInstituicao(String codigoInstituicao) {
+		this.codigoInstituicao = codigoInstituicao;
+	}
 	public Long getId() {
 		return id;
 	}
