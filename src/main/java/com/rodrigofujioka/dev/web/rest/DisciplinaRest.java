@@ -36,10 +36,6 @@ public class DisciplinaRest {
 	
 	public ResponseEntity<DisciplinaNomeProfessorDTO> getDisciplinaProfessor(@PathVariable Long id){
 		try {
-			System.out.println("XXX");
-			System.out.println("XXX");
-			System.out.println("XXX");
-			System.out.println("XXX");
 			DisciplinaNomeProfessorDTO disciplinaNomeProfessorDTO = disciplinaService.getDisciplinaPorId(id);
 			return ResponseEntity.ok(disciplinaNomeProfessorDTO);
 		} catch (NotFoundException e) {
