@@ -13,6 +13,7 @@ import org.springframework.stereotype.Service;
 
 import com.rodrigofujioka.dev.web.domain.Disciplina;
 import com.rodrigofujioka.dev.web.repository.DisciplinaRepository;
+import com.rodrigofujioka.dev.web.service.dto.DisciplinaBuscaAnoDTO;
 import com.rodrigofujioka.dev.web.service.dto.DisciplinaNomeProfessorDTO;
 
 import javassist.NotFoundException;
@@ -35,6 +36,24 @@ public class DisciplinaService {
 		return disciplinaRepository.findDisciplinaByNomeAndProfessor(nome, professor);				
 		
 	}
+	
+	public List<Disciplina> getDisciplinaEntreAnos(DisciplinaBuscaAnoDTO dto) {
+		 
+		List<Disciplina> listaDisciplinas = 
+				disciplinaRepository.findByAnoDisciplinaBetween(dto.getAnoInicial(), dto.getAnoFinal());				
+		return listaDisciplinas;
+		
+	}
+	
+	public List<Disciplina> getDisciplinaEntreAnos(int anoInicial, int anoFinal)  {
+		 
+		List<Disciplina> listaDisciplinas = 
+				disciplinaRepository.findByAnoDisciplinaBetween(anoInicial, anoFinal);			
+		return listaDisciplinas;
+		
+	}
+	
+	
 	
 	public DisciplinaNomeProfessorDTO getDisciplinaPorId(Long id) throws NotFoundException {
 		 Optional<Disciplina> disciplina = disciplinaRepository.findById(id);

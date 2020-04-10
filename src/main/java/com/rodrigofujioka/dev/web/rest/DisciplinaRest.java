@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.rodrigofujioka.dev.web.domain.Disciplina;
 import com.rodrigofujioka.dev.web.service.DisciplinaService;
+import com.rodrigofujioka.dev.web.service.dto.DisciplinaBuscaAnoDTO;
 import com.rodrigofujioka.dev.web.service.dto.DisciplinaNomeProfessorDTO;
 
 import javassist.NotFoundException;
@@ -31,6 +32,17 @@ public class DisciplinaRest {
 	@PostMapping("/disciplina")
 	public ResponseEntity<Disciplina> salvar(@RequestBody @Valid Disciplina disciplina) {
 		return ResponseEntity.ok(disciplinaService.salvar(disciplina));
+	}
+	
+	@GetMapping("/disciplina/busca/{anoInicial}/{anoFinal}")
+	public ResponseEntity<List<Disciplina>> buscaDisciplinaEntreAnosPath(@PathVariable int anoInicial, @PathVariable int anoFinal){
+	
+		return ResponseEntity.ok(disciplinaService.getDisciplinaEntreAnos(anoFinal,anoFinal));
+	}
+	
+	@GetMapping("/disciplina/busca")
+	public ResponseEntity<List<Disciplina>> buscaDisciplinaEntreAnos(@RequestBody @Valid DisciplinaBuscaAnoDTO dtoBusca){
+		return ResponseEntity.ok(disciplinaService.getDisciplinaEntreAnos(dtoBusca));
 	}
 	
 	

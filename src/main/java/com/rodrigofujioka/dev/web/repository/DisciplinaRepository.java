@@ -16,4 +16,8 @@ public interface DisciplinaRepository extends JpaRepository<Disciplina, Long> {
 	//select * from Disciplina where nome='java' and professor='Fujioka' 
 	List<Disciplina> findDisciplinaByNomeAndProfessor(String nome, String professor);
 	
+	List<Disciplina> findDisciplinaByAnoDisciplinaBetween(int anoInicial, int anoFinal);
+	
+	List<Disciplina> findByAnoDisciplinaBetween(int anoInicial, int anoFinal);
+	
 }
