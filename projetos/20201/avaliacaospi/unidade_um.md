@@ -23,49 +23,49 @@ Período:  19 a 23 de Abril de 2020.
   
   *  1.1 - Entidades a serem mapeadas: 1,0
   		
-	* status ->  1 (Open), 2 (Closed)	
+	 -| status  1 (Open), 2 (Closed |-
 
-	| Department | Tipo |		
-	|-|-|
-	| departmentName | String |
-	
-	---
-
-	| Task | Tipo |
-	|-|-|
-	| title | String |
-	| description | String |
-	| taskPoints | Long|
-	| status | Long|
-	| startDate | Date|		
-	| endDate | Date|
-
-	---
-					
-	| Person | Tipo |
-	|-|-|
-	| firstName | String |
-	| lastName | String |
-	| email | String |
-	| phoneNumber | String |
-	| hireDate | Date|
-
-	---
+		| Department | Tipo |		
+		|-|-|
+		| departmentName | String |
 		
-	| Project | Tipo |
-	|-|-|
-	| projectTitle | String |
-	| manager | Person,
-	| minSalary | Long|
-	| maxSalary Long |
+		---
 
-	---
-	
-	| ProjectHistory | Tipo |
-	|-|-|
-	| startDate | Date|
-	| endDate | Date|
-	| manager | Person |
+		| Task | Tipo |
+		|-|-|
+		| title | String |
+		| description | String |
+		| taskPoints | Long|
+		| status | Long|
+		| startDate | Date|		
+		| endDate | Date|
+
+		---
+						
+		| Person | Tipo |
+		|-|-|
+		| firstName | String |
+		| lastName | String |
+		| email | String |
+		| phoneNumber | String |
+		| hireDate | Date|
+
+		---
+			
+		| Project | Tipo |
+		|-|-|
+		| projectTitle | String |
+		| manager | Person,
+		| minSalary | Long|
+		| maxSalary Long |
+
+		---
+		
+		| ProjectHistory | Tipo |
+		|-|-|
+		| startDate | Date|
+		| endDate | Date|
+		| manager | Person |
     
     
     <p align="center">	                  
