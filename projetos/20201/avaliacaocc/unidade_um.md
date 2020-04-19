@@ -21,14 +21,16 @@ Período:  19 a 23 de Abril de 2020.
 
   - 1 Implementar uma api RestFull, para isso utilize como base a representação das entidades descritas no tópico 1.1
   
-  - 1.1 - Entidades a serem mapeadas: (1,0)
+  *  1.1 - Entidades a serem mapeadas: 1,0
+  		
+	 -| status  1 (Open), 2 (Closed |-
 
-      
-		| Department | Tipo |
+		| Department | Tipo |		
 		|-|-|
 		| departmentName | String |
-
 		
+		---
+
 		| Task | Tipo |
 		|-|-|
 		| title | String |
@@ -37,9 +39,9 @@ Período:  19 a 23 de Abril de 2020.
 		| status | Long|
 		| startDate | Date|		
 		| endDate | Date|
-		
-	* status ->  1 (Open), 2 (Closed)				
-		
+
+		---
+						
 		| Person | Tipo |
 		|-|-|
 		| firstName | String |
@@ -47,14 +49,17 @@ Período:  19 a 23 de Abril de 2020.
 		| email | String |
 		| phoneNumber | String |
 		| hireDate | Date|
-		
-		
+
+		---
+			
 		| Project | Tipo |
 		|-|-|
 		| projectTitle | String |
-		| manager Person,
+		| manager | Person,
 		| minSalary | Long|
 		| maxSalary Long |
+
+		---
 		
 		| ProjectHistory | Tipo |
 		|-|-|
@@ -63,15 +68,12 @@ Período:  19 a 23 de Abril de 2020.
 		| manager | Person |
     
     
-    <p align="center">	                  
-		<img src="https://github.com/rodrigofujioka/papw/blob/feature/spi_20201/projetos/20201/avaliacaocc/cc_202001_avaliacao_um.png" alt="Diagrama" />
-	</p>
+     <p align="center"><img src="https://github.com/rodrigofujioka/papw/blob/feature/cc_20201/projetos/20201/avaliacaospi/cc_202001_avaliacao_um.png" alt="Diagrama de Entidade" /> </p>
   
   - 2 Implemente os services, repositorys, DTO, Endpoints Rest para as entidade do item 1.1: (0,5)
   
-      <p align="center">	                  
-		<img src="https://github.com/rodrigofujioka/papw/blob/feature/spi_20201/projetos/20201/avaliacaocc/cc_202001_avaliacao_uml_sequence.png" alt="Diagrama" />
-	</p>
+      <p align="center"><img src="https://github.com/rodrigofujioka/papw/blob/feature/cc_20201/projetos/20201/avaliacaospi/cc_202001_avaliacao_uml_sequence.png" alt="Diagrama de Sequência" /> </p>
+  
   
   
   - 3 Customização : (1,0)
