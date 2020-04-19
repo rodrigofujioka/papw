@@ -11,10 +11,10 @@ Período:  19 a 23 de Abril de 2020.
 ### Avaliação um da turma 2020.1 do curso de sistemas para internet  
   
   - Prazo de entrega do link no Github:
-    * 24/04/2020  19:00 
+    * 23/04/2020  19:00 
     
   - Horários em que serão realizados os questionamentos do código:  
-    * 24/04/2020  20:00 - 22:00 
+    * 23/04/2020  20:00 - 22:00 
    
 ### Instruções e Pontuações
 
@@ -34,9 +34,11 @@ Período:  19 a 23 de Abril de 2020.
 		| title | String |
 		| description | String |
 		| taskPoints | Long|
-		| startDate | Date|
+		| status | Long|
+		| startDate | Date|		
 		| endDate | Date|
-					
+		
+	* status ->  1 (Open), 2 (Closed)				
 		
 		| Person | Tipo |
 		|-|-|
@@ -62,13 +64,13 @@ Período:  19 a 23 de Abril de 2020.
     
     
     <p align="center">	                  
-		<img src="https://github.com/rodrigofujioka/papw/blob/feature/spi_20201/projetos/20201/avaliacaospi/spi_202001_avaliacao_um.png" alt="Diagrama" />
+		<img src="https://github.com/rodrigofujioka/papw/blob/feature/spi_20201/projetos/20201/avaliacaocc/cc_202001_avaliacao_um.png" alt="Diagrama" />
 	</p>
   
   - 2 Implemente os services, repositorys, DTO, Endpoints Rest para as entidade do item 1.1: (0,5)
   
       <p align="center">	                  
-		<img src="https://github.com/rodrigofujioka/papw/blob/feature/spi_20201/projetos/20201/avaliacaospi/spi_202001_avaliacao_uml_sequence.png" alt="Diagrama" />
+		<img src="https://github.com/rodrigofujioka/papw/blob/feature/spi_20201/projetos/20201/avaliacaocc/cc_202001_avaliacao_uml_sequence.png" alt="Diagrama" />
 	</p>
   
   
@@ -76,7 +78,8 @@ Período:  19 a 23 de Abril de 2020.
   -  3.1 - Implemente um endpoint que retorne todas as tasks desenvolvidas em um período de datas.  
   -  3.2 - Implemente um endpoint que retorne todas as tasks desenvolvidas em um período de datas e que estão com status 2 (Fechadas)
   -  3.3 - Implemente um endpoint que retorne todas as tasks desenvolvidas em um período de datas e que estão com status 1 (Abertas)
-   
+  -  3.4 - Implemente um endpoint que retorne todas as tasks que estejam em um intervalo de pontuação, 
+  
    
   - 4 - Testes unitários para os services (0,5) 
    
