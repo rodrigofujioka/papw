@@ -8,7 +8,7 @@ Período:  19 a 23 de Abril de 2020.
 * Meu instagram: [@rodrigofujioka](https://www.instagram.com/rodrigofujioka) 
 * Meu facebook: [@rodrigofujioka](https://www.facebook.com/rodrigofujioka)
 
-### Avaliação um da turma 2020.1 do curso de sistemas para internet  
+### Avaliação um da turma 2020.1 do curso de Computação.  
   
   - Prazo de entrega do link no Github:
     * 23/04/2020  19:00 
