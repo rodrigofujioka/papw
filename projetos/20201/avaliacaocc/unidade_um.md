@@ -68,11 +68,12 @@ Período:  19 a 23 de Abril de 2020.
 		| manager | Person |
     
     
-     <p align="center"><img src="https://github.com/rodrigofujioka/papw/blob/feature/cc_20201/projetos/20201/avaliacaospi/cc_202001_avaliacao_um.png" alt="Diagrama de Entidade" /> </p>
+    
+     <p align="center"><img src="https://github.com/rodrigofujioka/papw/blob/feature/cc_20201/projetos/20201/avaliacaocc/cc_202001_avaliacao_um.png" alt="Diagrama de Entidade" /> </p>
   
   - 2 Implemente os services, repositorys, DTO, Endpoints Rest para as entidade do item 1.1: (0,5)
   
-      <p align="center"><img src="https://github.com/rodrigofujioka/papw/blob/feature/cc_20201/projetos/20201/avaliacaospi/cc_202001_avaliacao_uml_sequence.png" alt="Diagrama de Sequência" /> </p>
+      <p align="center"><img src="https://github.com/rodrigofujioka/papw/blob/feature/cc_20201/projetos/20201/avaliacaocc/cc_202001_avaliacao_uml_sequence.png" alt="Diagrama de Sequência" /> </p>
   
   
   
