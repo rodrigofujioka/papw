@@ -34,8 +34,11 @@ Período:  19 a 23 de Abril de 2020.
 		| title | String |
 		| description | String |
 		| taskPoints | Long|
-		| startDate | Date|
+		| status | Long|
+		| startDate | Date|		
 		| endDate | Date|
+		
+	* status ->  1 (Open), 2 (Closed)	
 					
 		
 		| Person | Tipo |
