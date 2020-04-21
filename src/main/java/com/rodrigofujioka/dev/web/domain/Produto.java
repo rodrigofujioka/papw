@@ -15,6 +15,8 @@ public class Produto {
 	private LocalDate dataCriacao;
 	private LocalDate dataAlteracao;
 	
+	private Quarentena quarentena;
+	
 	
 	public LocalDate getDataCriacao() {
 		return dataCriacao;

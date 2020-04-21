@@ -11,10 +11,10 @@ Período:  19 a 23 de Abril de 2020.
 ### Avaliação um da turma 2020.1 do curso de Computação.  
   
   - Prazo de entrega do link no Github:
-    * 23/04/2020  19:00 
+    * 27/04/2020  19:00 
     
   - Horários em que serão realizados os questionamentos do código:  
-    * 23/04/2020  20:00 - 22:00 
+    * 27/04/2020  20:00 - 22:00 
    
 ### Instruções e Pontuações
 
@@ -23,7 +23,7 @@ Período:  19 a 23 de Abril de 2020.
   
   *  1.1 - Entidades a serem mapeadas: 1,0
   		
-	 -| status  1 (Open), 2 (Closed |-
+	 -| status  1 (Abertas), 2 (Fechadas) |-
 
 		| Department | Tipo |		
 		|-|-|
@@ -57,7 +57,7 @@ Período:  19 a 23 de Abril de 2020.
 		| projectTitle | String |
 		| manager | Person,
 		| minSalary | Long|
-		| maxSalary Long |
+		| maxSalary | Long |
 
 		---
 		
