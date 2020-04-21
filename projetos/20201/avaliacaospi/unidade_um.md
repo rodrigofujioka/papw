@@ -11,10 +11,10 @@ Período:  19 a 23 de Abril de 2020.
 ### Avaliação um da turma 2020.1 do curso de sistemas para internet  
   
   - Prazo de entrega do link no Github:
-    * 24/04/2020  19:00 
+    * 27/04/2020  19:00 
     
   - Horários em que serão realizados os questionamentos do código:  
-    * 24/04/2020  20:00 - 22:00 
+    * 28/04/2020  20:00 - 22:00 
    
 ### Instruções e Pontuações
 
@@ -23,16 +23,18 @@ Período:  19 a 23 de Abril de 2020.
   
   *  1.1 - Entidades a serem mapeadas: 1,0
   		
-	 -| status  1 (Open), 2 (Closed |-
+	 -| status  1 (Abertas), 2 (Fechadas) |-
 
 		| Department | Tipo |		
 		|-|-|
+		| id | Long |
 		| departmentName | String |
 		
 		---
 
 		| Task | Tipo |
 		|-|-|
+		| id | Long |
 		| title | String |
 		| description | String |
 		| taskPoints | Long|
@@ -44,6 +46,7 @@ Período:  19 a 23 de Abril de 2020.
 						
 		| Person | Tipo |
 		|-|-|
+		| id | Long |
 		| firstName | String |
 		| lastName | String |
 		| email | String |
@@ -54,15 +57,17 @@ Período:  19 a 23 de Abril de 2020.
 			
 		| Project | Tipo |
 		|-|-|
+		| id | Long |
 		| projectTitle | String |
 		| manager | Person,
 		| minSalary | Long|
-		| maxSalary Long |
+		| maxSalary | Long |
 
 		---
 		
 		| ProjectHistory | Tipo |
 		|-|-|
+		| id | Long |
 		| startDate | Date|
 		| endDate | Date|
 		| manager | Person |
