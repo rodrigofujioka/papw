@@ -18,9 +18,8 @@
 	<properties>
 		<java.version>1.8</java.version>
 		<sonar.projectKey>java_fujioka</sonar.projectKey>
-		<sonar.organization>rodrigofujioka</sonar.organization>
-		<sonar.host.url>http://localhost:9000</sonar.host.url>
-		<sonar.login>11a674ee0559ebba8681885ff77058890852f05e</sonar.login>
+		<sonar.host.url>http://ip172-18-0-30-brfcnjlim9m000b02l7g-9000.direct.labs.play-with-docker.com</sonar.host.url>
+		<sonar.login>7670b8c35a4ae7ab2acbc8b494553e21efebdf71</sonar.login>
 
 	</properties>
 
