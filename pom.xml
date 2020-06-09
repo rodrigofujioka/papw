@@ -19,9 +19,9 @@
 
 	<properties>
 		<java.version>1.8</java.version>
-		<sonar.projectKey>papw</sonar.projectKey>
-		<sonar.host.url>http://localhost:9000</sonar.host.url>
-		<sonar.login>3911ea833947e63a99fbd83a6bab35ad6279d32c</sonar.login>
+		<sonar.projectKey>tap</sonar.projectKey>
+		<sonar.host.url>http://ip172-18-0-47-brg1lndim9m0009c7ja0-9000.direct.labs.play-with-docker.com</sonar.host.url>
+		<sonar.login>9bca12b0a2b49fcdff56009d0aca4693499e79bd</sonar.login>
 	</properties>
 
 	<dependencies>
