@@ -19,9 +19,9 @@
 
 	<properties>
 		<java.version>1.8</java.version>
-		<sonar.projectKey>tap</sonar.projectKey>
-		<sonar.host.url>http://ip172-18-0-27-brglnatim9m0008jm910-9000.direct.labs.play-with-docker.com</sonar.host.url>
-		<sonar.login>14d8a6cfeab3cb9e036a56e0d81d5e38f24923b2</sonar.login>
+		<sonar.projectKey>fuji</sonar.projectKey>
+		<sonar.host.url>http://ip172-18-0-45-brglnatim9m0008jm910-9000.direct.labs.play-with-docker.com</sonar.host.url>
+		<sonar.login>c3af01672263ccaa3a87866b5229adff7e6f572c</sonar.login>
 	</properties>
 
 	<dependencies>
